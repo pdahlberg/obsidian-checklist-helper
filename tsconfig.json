@@ -14,9 +14,15 @@
       "es5",
       "scripthost",
       "es2015"
+    ],
+    "types": [
+      "jest"
     ]
   },
   "include": [
-    "**/*.ts"
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/__tests__/**"
   ]
 }
